@@ -1,0 +1,8 @@
+#! /bin/bash
+
+if test `date +%h` -ge 12
+then 
+	echo "------Good AfterNoon--------"
+else
+	echo "--------Good Mornig---------"
+fi

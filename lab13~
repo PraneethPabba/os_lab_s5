@@ -1,0 +1,12 @@
+#! /bin/bash
+if [ $# -lt 2 ]
+then
+echo -e "$0 : Invalid Input.....\n You must give two input"
+exit 1
+fi
+function fungadd()
+{
+ echo "Sum of $1 and $2 = `expr $1 \+ $2` "
+ }
+a=$1
+ fungadd $a $2
