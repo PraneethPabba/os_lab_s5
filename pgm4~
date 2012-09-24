@@ -1,0 +1,5 @@
+#! /bin/bash
+bash --rcfile <(
+echo -e "PS1='\e[1;32m*vrnithins*...\e[0m'"
+echo -e "export PATH=$PATH:/home/vrnithin/Desktop/OS_lab/lab1"
+)

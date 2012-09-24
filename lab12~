@@ -1,0 +1,8 @@
+#! /bin/bash
+tim=`date +"%p"`
+if test $tim \= "PM"
+then 
+	echo "------Good AfterNoon--------"
+else
+	echo "--------Good Mornig---------"
+fi
